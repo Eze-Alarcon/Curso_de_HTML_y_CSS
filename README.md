@@ -2,6 +2,6 @@
  Curso definitivo de HTML y CSS
  En este curso voy a aprender diferentes cosas sobre HTML y CSS
  Intentare:
-* hacer un commit por clase
+* Hacer un commit por clase
 * Dejare el nombre del commit en el resumen de cada clase
 * Subir cada commit al repositorio remoto.
