@@ -13,26 +13,17 @@
             <nav></nav>
         </header>       
         <main>
-            <form action="">
-                <label for="nombre">
-                    <span>¿Como te llamas?</span>
-                    <input type="text" id="nombre" placeholder="ingresa tu nombre" autocomplete="name" required>
-                </label>
-                <label for="fecha">
-                    <span>¿Como te llamas?</span>
-                    <input type="date" id="fecha" placeholder="ingresa la fecha">
-                </label>
-                <label for="horario">
-                    <span>¿Como te llamas?</span>
-                    <input type="time" id="horario" placeholder="ingresa tu hora">
-                </label>
-                <label for="calendario"> <!-- Esta es una forma de usar un calendario, la otra forma es la version larga. -->
-                    <span>Eligue la fecha</span>
-                    <input type="datetime-local" id="calendario" name="calendario"> <!-- la version larga consiste en preg por 4 cosas, 
-                        con datetime-local preguntamos  fecha (mes, semana, dia, año) y hora-->
-                </label>
-                <input type="submit">
-            </form>
+            <!-- <select name="cursos" id="">
+                <option value="lo que el servidor ve">Lo que el usuario ve</option>     nota: este es el ejemplo 1
+                <option value="ejemplo b">ejemplo b</option>
+                <option value="ejemplo c">ejemplo c</option>
+            </select> -->
+            <input list="cursos">
+            <datalist id="cursos">
+                <option value="lo que el servidor ve">Lo que el usuario ve</option>     <!-- nota: este es el ejemplo 2 -->
+                <option value="ejemplo b">ejemplo b</option>
+                <option value="ejemplo c">ejemplo c</option>
+            </datalist>
         </main>
     </body>
 </html>
