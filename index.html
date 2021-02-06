@@ -26,6 +26,12 @@
                     <span>¿Como te llamas?</span>
                     <input type="time" id="horario" placeholder="ingresa tu hora">
                 </label>
+                <label for="calendario"> <!-- Esta es una forma de usar un calendario, la otra forma es la version larga. -->
+                    <span>Eligue la fecha</span>
+                    <input type="datetime-local" id="calendario" name="calendario"> <!-- la version larga consiste en preg por 4 cosas, 
+                        con datetime-local preguntamos  fecha (mes, semana, dia, año) y hora-->
+                </label>
+                <input type="submit">
             </form>
         </main>
     </body>
