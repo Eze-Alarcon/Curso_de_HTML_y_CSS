@@ -4,36 +4,54 @@
         <meta charset="UTF-8" >
         <meta name="desciption" content="Esta pagina te mostrara fotos de gatos">
         <meta name="robots" content="index,follow" >
-        <title>Esta la pagina de eze</title>
+        <title>RETO 2</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <meta rel="stylesheet" type="./CSS/style.css" >
+        <link rel="stylesheet" href="./CSS/style.css" >  <!-- Recordar que para llamar a un archivo externo es con la etiqueta LINK no META.... -->
+        <style>
+            h4{
+                color:tomato;
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <nav></nav>
-        </header>       
-        <main>
-            <section>
-                <article></article>
-            </section>
-            
-        </main>
-        <footer>
-        </footer>
-        <h1>Reto numero 1: Creacion de una lista de super con hipervinculos a cada punto de la lista</h1>
-        <p>Hola, este parrafo es parte del body</p>
+        <h1>Reto numero 2: modificacion del archivo usando css de 3 formas distintas</h1>
+        <p>Solo cambiaremos el color del texto por el momento, en la pagina se veran 3 textos de distintos colores pero
+            dentro del archivo se hara de 3 formas distinas:</p>
+        <p style="color: blue">Forma numero 1: cambiaremos el color de este texto usando la etiqueta style
+            <br>como atributo de la etiqueta p. En este caso el texto a mostrar sera azul</p>
+
+        <h4>Forma numero 2: al color de este parrafo lo cambiaremos usando la etiqueta style en el head del HTML.
+            <br>Sin embargo aqui nos encontramos con nuestro primer problema, como identifico este parrafo de los demas?
+            <br>prodria generar un id particular para este parrafo pero usaremos mejor un titulo h4 y el color rojo.
+        </h4>
+
+        <p>Forma numero 3: aqui usaremos un archivo css para modificar el contenido, pero en css tenemos 3 formas distintas.</p>
+        <ol>
+            <li>Usando el nombre de la etiqueta HTML en el css y asi el css identifica donde debe cambiar el estilo pero tenemos el mismo problema que en la forma 2, por lo tanto usaremos un h5 de ej.</li>
+            <li>Usando el atributo "class" en la etiqueta p</li>
+            <li>Usando el atributo "id" en la etiqueta p</li>
+        </ol>
+
+        <h5>Ejemplo 1 de css: este ejemplo sera color verde</h5>
+
+        <p class="parrafo" >Ejemplo 2 de css: este ejemplo sera color amarillo</p>
+
+        <p id="texto" >Ejemplo 3 de css: este ejemplo sera color naranja</p>
+
+        <p>Nota: aqui debajo se encuentra lo del reto 1</p>
+
         <p>La lista comienza aqui:</p>
         <ul>
-                <p>Frutas y verduras:</p>
-                <li><a href="https://soycomocomo.es/media/2019/03/zanahorias.jpg"> Zanahoria </a> </li>
-                <li><a href="https://img.huffingtonpost.com/asset/5ef9ffab250000a502c28ec2.jpeg?ops=scalefit_720_noupscale"> Manzanas </a> </li>
-            </ul>
+            <p>Frutas y verduras:</p>
+            <li><a href="https://soycomocomo.es/media/2019/03/zanahorias.jpg"> Zanahoria </a> </li>
+            <li><a href="https://img.huffingtonpost.com/asset/5ef9ffab250000a502c28ec2.jpeg?ops=scalefit_720_noupscale"> Manzanas </a> </li>
+         </ul>
 
-            <ol>
-                <p>Carne:</p>
-                <li> <a href="http://www.asadoesargentino.com/wp-content/uploads/2017/06/asado-matambre-sobre-mesa.png"> Matambre </a> </li>
-                <li> <a href="https://www.res.com.ar/media/catalog/product/cache/dbcd7fcd96d4e43f69e3e3703d135006/p/e/peceto_6.jpg"> Peceto </a> </li>
+        <ol>
+             <p>Carne:</p>
+             <li> <a href="http://www.asadoesargentino.com/wp-content/uploads/2017/06/asado-matambre-sobre-mesa.png"> Matambre </a> </li>
+             <li> <a href="https://www.res.com.ar/media/catalog/product/cache/dbcd7fcd96d4e43f69e3e3703d135006/p/e/peceto_6.jpg"> Peceto </a> </li>
 
-            </ol>
+         </ol>
     </body>
 </html>

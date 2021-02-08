@@ -1,0 +1,11 @@
+h5 {  /* ejemplo 1 de CSS usando la etiqueta como guia (mala practica)*/
+    color:green;
+}
+
+.parrafo { /* ejemplo 2 de CSS usando clases */
+    color:yellow;
+}
+
+#texto { /* ejemplo 3 de CSS usando id */
+    color:orange;
+}
