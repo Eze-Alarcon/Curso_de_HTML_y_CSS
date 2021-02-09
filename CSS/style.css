@@ -1,0 +1,30 @@
+.header-nav { /* Estaremos usando el sistema BEM para nombrar los bloques, elementos y modificadores. */
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    background-color:paleturquoise;
+}
+
+.header-nav__item {
+    display: inline-block;
+}
+
+.header-nav__item a {
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: red;
+}
+
+.header-nav__item a:hover { /* Esta es una pseudoclase */
+    color:blue; /* esta pseudoclase cumple la funcion de colorear el texto cuando paso por encima de un item del nav en el header */
+}
+
+.header-nav__item a::after { /* Esto es un pseudoelemento */
+    content: " | ";  /* el pseudoelemento me agrega un estilo a cada item, en este caso despues (after) del elemento */
+}
+
+.header-nav__item a::before {
+    content: " | "; /* en este otro caso me agrega el estilo antes (before) del elemento */
+}
