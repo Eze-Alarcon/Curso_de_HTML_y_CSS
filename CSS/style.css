@@ -1,16 +1,8 @@
-* {
-    box-sizing: border-box; /* Usamos esta propiedad para que ajuste las "CAJAS" al tamaño maximo del navegador sin pasarse del limite
-    esto significa que la caja mas interna sufrira un ajuste (osea la que se pueda encoger se encogera) */
-
-    padding: 0; /* si bien aqui dice padding 0 pero mas abajo hay un padding, debemos tener en cuenta que cada objeto de 
-    html tiene un padding, por lo tanto el texto, la etiqueta main, etc tienen un padding propio. con esto hacemos que ese valor sea 0 */
-
-    margin:0; /* al igual que el anterior, cada etiqueta tiene su propio margin, con esto su valor sera 0 */
+html {
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main { /* esto aplica unicamente al contenido de la etiqueta main */
-    width: 100%;
-    height: 300px;
-    border: 10px solid grey;
-    padding: 20px 35px;
+h1 {
+    font-size: inherit;
 }
