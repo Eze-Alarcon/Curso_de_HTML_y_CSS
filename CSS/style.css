@@ -1,7 +1,16 @@
+.listas {
+    background-color: orange;
+}
+
 /* El siguiente conector es Adjacent Sibling, funciona de la siguiente manera:*/
-h2 + p { /* Aplica el color rojo a cada etoqueta "p" que este cerca de una etiqueta "h2" (por cerca seria inmediatamente dps) */
+.division_1 h2 + p { /* Aplica el color rojo a cada etiqueta "p" que este cerca de una etiqueta "h2" (por cerca seria inmediatamente dps) */
     color: red;
 }
 
 /* Notece el signo + entre las etiquetas! */
 
+/* El siguiente conector es General Sibling, funciona de la siguiente manera:*/
+.division_2 h2 ~ p { /* Aplica el color azul a cada etiqueta "p" que tenga como "hermano general" a una etiqueta h2 
+    nota: como hermano general se interpreta que tengan arriba de la "p" una etiqueta "h2", ademas de que estas estan dentro de una etiqueta "div" */
+    color: blue;
+}
