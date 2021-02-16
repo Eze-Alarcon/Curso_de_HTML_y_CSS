@@ -8,10 +8,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <link rel="stylesheet" href="/CSS/style.css">
     </head>
-    <body>       
+    <body>
+        <header class="page-header">
+            <h1 id="page-title" class="title">Titulo de ejemplo</h1>
+            <nav>
+                <ul id="main-nav" class="nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Cursos</a></li>
+                    <li><a href="">Instructores</a></li>
+                    <li><a href="" style="background-color: orange" class="blog">Blog</a></li>  <!-- Voy a forzar un error colocando un color de fondo naranja 
+                        usando un estilo embebido y luego
+                    usando una clase en CSS para demostrar que si bien ambas tienen el mismo nivel de importancia, si especifidad es diferente 
+                    (el embebido es 2 veces mas especifico) es una mala practica el embebido! -->
+                </ul>
+            </nav>
+        </header>       
         <main>
-            <h1>Este es un titulo para practicar la herencia de estilos</h1>
-            <div><p>Aprendiendo a usar css clase 3: la herencia de estilos en css.</p></div>
+            <p>Aprendiendo el uso de especificidad y orden de selectores en CSS</p>
         </main>
     </body>
 </html>
