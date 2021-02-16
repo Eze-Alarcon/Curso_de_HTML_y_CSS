@@ -4,26 +4,27 @@
         <meta charset="UTF-8" >
         <meta name="desciption" content="Esta pagina te mostrara fotos de gatos">
         <meta name="robots" content="index,follow" >
-        <title>Aprendiendo a usar css</title>
+        <title>Aprendiendo a usar CSS</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <link rel="stylesheet" href="/CSS/style.css">
     </head>
     <body>
-        <header>
+        <header class="page-header">
+            <h1 id="page-title" class="title">Titulo de ejemplo</h1>
             <nav>
-                <ol class="header-nav">
-                    <li class="header-nav__item"><a href="#">Ejemplo 1</a></li>
-                    <li class="header-nav__item"><a href="#">Ejemplo 2</a></li>
-                    <li class="header-nav__item"><a href="#">Ejemplo 3</a></li>
-                    <li class="header-nav__item"><a href="#">Ejemplo 4</a></li>
-                </ol>
+                <ul id="main-nav" class="nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Cursos</a></li>
+                    <li><a href="">Instructores</a></li>
+                    <li><a href="" style="background-color: orange" class="blog">Blog</a></li>  <!-- Voy a forzar un error colocando un color de fondo naranja 
+                        usando un estilo embebido y luego
+                    usando una clase en CSS para demostrar que si bien ambas tienen el mismo nivel de importancia, si especifidad es diferente 
+                    (el embebido es 2 veces mas especifico) es una mala practica el embebido! -->
+                </ul>
             </nav>
         </header>       
         <main>
-            <p>Aprendiendo a usar css clase 2: pseudo clases y pseudo elementos.</p>
-            <ol>
-                <li>Ejemplo 5</li>
-            </ol>
+            <p>Aprendiendo el uso de especificidad y orden de selectores en CSS</p>
         </main>
     </body>
 </html>
