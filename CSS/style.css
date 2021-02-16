@@ -14,3 +14,22 @@
     nota: como hermano general se interpreta que tengan arriba de la "p" una etiqueta "h2", ademas de que estas estan dentro de una etiqueta "div" */
     color: blue;
 }
+
+/* Notece el signo ~ entre las etiquetas! */
+
+/* El siguiente conector es child, funciona de la siguiente manera:*/
+.division_3 div > p { /* Aplica el color verde a cada etiqueta "p" que esta contenida directamente en una etiqueta "div" 
+    si existe otra etiqueta de por medio (ej article, section, etc) no funcionara */
+    color: greenyellow;
+}
+
+/* Notece el signo > entre las etiquetas! */
+
+/* El siguiente conector es Descedant, funciona de la siguiente manera:*/
+/* Nota: a este tipo de combinador ya lo hemos utilizado antes sin saberlo* */
+.division_4 div p {
+    /* Aplica el color rosa a cada etiqueta "p" que esta contenidas en una etiqueta "div" */
+    color: hotpink;
+}
+
+/* Notece el espacio entre las etiquetas! */
