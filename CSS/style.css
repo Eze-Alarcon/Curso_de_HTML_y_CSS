@@ -1,39 +1,7 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* El siguiente conector es Adjacent Sibling, funciona de la siguiente manera:*/
+h2 + p { /* Aplica el color rojo a cada etoqueta "p" que este cerca de una etiqueta "h2" (por cerca seria inmediatamente dps) */
+    color: red;
 }
 
-h1 {
-    color: purple;
-    font-family: serif;
-    margin-bottom: 10px;
-}
+/* Notece el signo + entre las etiquetas! */
 
-.title {
-    font-size: 18px;
-    font-family: monospace;
-}
-
-.nav {
-    margin-top: 10px;
-    list-style: none;
-    padding-left: 0;
-}
-
-.nav li {
-    display: inline-block;
-}
-
-.nav a {
-    color: white;
-    background-color: #13a4a4;
-    padding: 3px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.nav .blog {  /* Si me fijo en la especificidad de este elemento vere que es (0, 2, 0)
-    Esto lo hace ser mas "pesado" (mas importante) y por lo tanto me aplica el estilo deseado */
-    background-color: red;
-}

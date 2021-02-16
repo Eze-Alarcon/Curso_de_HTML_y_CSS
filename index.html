@@ -8,23 +8,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <link rel="stylesheet" href="/CSS/style.css">
     </head>
-    <body>
-        <header class="page-header">
-            <h1 id="page-title" class="title">Titulo de ejemplo</h1>
-            <nav>
-                <ul class="nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Cursos</a></li>
-                    <li><a href="">Instructores</a></li>
-                    <li><a href="" class="blog">Blog</a></li>  <!-- Voy a forzar un error colocando un color de fondo naranja 
-                        usando un estilo embebido y luego
-                    usando una clase en CSS para demostrar que si bien ambas tienen el mismo nivel de importancia, si especifidad es diferente 
-                    (el embebido es 2 veces mas especifico) es una mala practica el embebido! -->
-                </ul>
-            </nav>
-        </header>       
+    <body>      
         <main>
-            <p>Aprendiendo el uso de especificidad y orden de selectores en CSS</p>
+            <h1>Aprendiendo el uso de Combinadores</h1>
+            <ul>
+                <li>Parte 1: Adjacent Siblings</li>
+            </ul>
+            <h2>Este titulo es un h2 y sera el titulo 1</h2>
+            <p>Esto es un parrafo, lo llameremos ejemplo 1</p>
+            <h2>Este titulo es un h2 y sera el titulo 2</h2>
+            <h3>Este titulo es un h3!!!! y sera el titulo 3</h3>
+            <p>Esto es un parrafo, lo llameremos ejemplo 2</p> <!-- En el ejemplo de adjacent sibling: este parrafo no cambia de color ya que esta dps de un h3 -->
+            <h2>Este titulo es un h2 y sera el titulo 4</h2>
+            <p>Esto es un parrafo, lo llameremos ejemplo 3</p>
         </main>
     </body>
 </html>
