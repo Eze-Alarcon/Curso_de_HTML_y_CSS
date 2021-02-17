@@ -1,35 +1,20 @@
-.listas {
-    background-color: orange;
+* {
+    box-sizing: border-box; /* Esto es para no tener problemas con tamaños de contenedores */
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%; /* seteamos las medidas de html para que den justo numeros redondos de 10 */
 }
 
-/* El siguiente conector es Adjacent Sibling, funciona de la siguiente manera:*/
-.division_1 h2 + p { /* Aplica el color rojo a cada etiqueta "p" que este cerca de una etiqueta "h2" (por cerca seria inmediatamente dps) */
-    color: red;
+/* TODO LO QUE ESTA DE AQUI PARA ARRIBA DEBERIA ESTAR EN TODOS LOS CSS */
+/* NUNCA OLVIDAR, EN ESPECIAL EL 62.5% DE FONT-SIZE DEL HTML PARA PODER USAR REM */
+
+
+p {
+    font-size: 1rem;
 }
 
-/* Notece el signo + entre las etiquetas! */
-
-/* El siguiente conector es General Sibling, funciona de la siguiente manera:*/
-.division_2 h2 ~ p { /* Aplica el color azul a cada etiqueta "p" que tenga como "hermano general" a una etiqueta h2 
-    nota: como hermano general se interpreta que tengan arriba de la "p" una etiqueta "h2", ademas de que estas estan dentro de una etiqueta "div" */
-    color: blue;
+main div {
+    font-size: 1.6rem;
 }
-
-/* Notece el signo ~ entre las etiquetas! */
-
-/* El siguiente conector es child, funciona de la siguiente manera:*/
-.division_3 div > p { /* Aplica el color verde a cada etiqueta "p" que esta contenida directamente en una etiqueta "div" 
-    si existe otra etiqueta de por medio (ej article, section, etc) no funcionara */
-    color: greenyellow;
-}
-
-/* Notece el signo > entre las etiquetas! */
-
-/* El siguiente conector es Descedant, funciona de la siguiente manera:*/
-/* Nota: a este tipo de combinador ya lo hemos utilizado antes sin saberlo* */
-.division_4 div p {
-    /* Aplica el color rosa a cada etiqueta "p" que esta contenidas en una etiqueta "div" */
-    color: hotpink;
-}
-
-/* Notece el espacio entre las etiquetas! */

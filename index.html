@@ -10,75 +10,16 @@
     </head>
     <body>      
         <main>
-            <div class="division_1">
-                <h1>Aprendiendo el uso de Combinadores</h1>
-                <ul>
-                    <li class="listas">Parte 1: Adjacent Siblings</li>
-                </ul>
-                <h2>Este titulo es un h2 y sera el titulo 1</h2>
-                <p>Esto es un parrafo, lo llameremos ejemplo 1</p>
-                <h2>Este titulo es un h2 y sera el titulo 2</h2>
-                <h3>Este titulo es un h3!!!! y sera el titulo 3</h3>
-                <p>Esto es un parrafo, lo llameremos ejemplo 2</p> <!-- En el ejemplo de adjacent sibling: este parrafo no cambia de color ya que esta dps de un h3 -->
-                <h2>Este titulo es un h2 y sera el titulo 4</h2>
-                <p>Esto es un parrafo, lo llameremos ejemplo 3</p>
-            </div>
-            <div class="division_2">
-                <ul>
-                    <li class="listas">Parte 2: General Siblings</li>
-                </ul>
-                <p>Esto es un parrafo, lo llameremos ejemplo 0</p> <!-- Este lo agregue ahora para demostrar que no se pone en azul -->
-                <h2>Este titulo es un h2 y sera el titulo 1</h2>
-                <p>Esto es un parrafo, lo llameremos ejemplo 1</p>
-                <h2>Este titulo es un h2 y sera el titulo 2</h2>
-                <h3>Este titulo es un h3!!!! y sera el titulo 3</h3>
-                <p>Esto es un parrafo, lo llameremos ejemplo 2</p> <!-- Aqui si se marca este en azul ya que tiene mas arriba un h2 -->
-                <h2>Este titulo es un h2 y sera el titulo 4</h2>
-                <p>Esto es un parrafo, lo llameremos ejemplo 3</p>
-            </div>
-            <div class="division_3">
-                <ul>
-                    <li class="listas">Parte 3: Child</li>
-                </ul>
-                <article>
-                    <p>Esto es un parrafo dentro de article, lo llameremos ejemplo 0</p> <!-- Este no se colorea -->
-                </article>
-                <article>
-                        <div>
-                            <p>Esto es un parrafo dentro de article y div, lo llameremos ejemplo 1</p> <!-- Este si -->
-                        </div>
-                </article>
-                <article>
-                    <section>
-                        <div>
-                            <p>Esto es un parrafo dentro de article, section y div, lo llameremos ejemplo 2</p> <!-- Este tambien se colorea -->
-                        </div>
-                    </section>
-                </article>
-                <p>Esto es un parrafo y no esta contenido en ninguna etiqueta, lo llameremos ejemplo 3. Porque no se marca aunque esta dentro de un div gigante?<br>
-                No se marca porque estamos diciendo que "dentro del div gigante, colorea aquellos parrafos dentro de otra etiqueta div" </p> <!-- Este no -->
-            </div>
-            <div class="division_4">
-                <ul>
-                    <li class="listas">Parte 4: Descendant</li>
-                </ul>
-                <article>
-                    <p>Esto es un parrafo dentro de article, lo llameremos ejemplo 0</p> <!-- Este no funcionara -->
-                </article>
-                <article>
-                        <div>
-                            <p>Esto es un parrafo dentro de article y div, lo llameremos ejemplo 1</p> <!-- Este si -->
-                        </div>
-                </article>
-                <article>
-                    <section>
-                        <div>
-                            <p>Esto es un parrafo dentro de article, section y div, lo llameremos ejemplo 2</p> <!-- Este tambien se colorea -->
-                        </div>
-                    </section>
-                </article>
-                <p>Esto es un parrafo y no esta contenido en ninguna etiqueta, lo llameremos ejemplo 3.Porque no se marca aunque esta dentro de un div gigante?<br>
-                No se marca porque estamos diciendo que "dentro del div gigante, colorea aquellos parrafos dentro de otra etiqueta div" </p> <!-- Este no -->
+            <h1>Aprendiendo sobre Medidas</h1>
+            <p>Esto es un parrafo de ejemplo 1</p>
+            <div>
+                <p>Esto es un parrafo de ejemplo 2</p>
+                <div>
+                    <p>Esto es un parrafo de ejemplo 3</p>
+                    <div>
+                        <p>Esto es un parrafo de ejemplo 4</p>
+                    </div>
+                </div>
             </div>
         </main>
     </body>
