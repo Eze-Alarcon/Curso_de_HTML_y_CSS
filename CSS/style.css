@@ -1,11 +1,24 @@
-h5 {  /* ejemplo 1 de CSS usando la etiqueta como guia (mala practica)*/
-    color:green;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
 }
 
-.parrafo { /* ejemplo 2 de CSS usando clases */
-    color:yellow;
+.uno {
+    font-size: 3rem;
+    text-align: center;
+    border: 1rem solid blue;
+    background-color: red;
+    height: 10rem;
+    width: 15rem;
+    margin: 0 auto;
+    position: relative;
 }
 
-#texto { /* ejemplo 3 de CSS usando id */
-    color:orange;
+.uno p {
+    margin: 0 auto;
+    padding: 0;
 }
