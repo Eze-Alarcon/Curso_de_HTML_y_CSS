@@ -1,20 +1,18 @@
 * {
-    box-sizing: border-box; /* Esto es para no tener problemas con tamaños de contenedores */
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-html {
-    font-size: 62.5%; /* seteamos las medidas de html para que den justo numeros redondos de 10 */
+.parent {
+    border: 2px white dotted;
+    display: inline-block;
 }
-
-/* TODO LO QUE ESTA DE AQUI PARA ARRIBA DEBERIA ESTAR EN TODOS LOS CSS */
-/* NUNCA OLVIDAR, EN ESPECIAL EL 62.5% DE FONT-SIZE DEL HTML PARA PODER USAR REM */
-
-
-p {
-    font-size: 1rem;
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
 }
-
-main div {
-    font-size: 1.6rem;
+#two {
+    background-color: green;
 }
