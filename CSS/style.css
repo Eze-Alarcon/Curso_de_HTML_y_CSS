@@ -1,18 +1,26 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html {
+    font-size: 62.5%;
 }
-.parent {
-    border: 2px white dotted;
-    display: inline-block;
+
+.header {
+    margin: 50px 500px;
+    background-color: blue;
 }
-.box {
-    display: inline-block;
+
+.navbar {
+    
+}
+
+.left-section {
+    margin: 0 200px;
+    background-color: pink;
+}
+
+.main {
+    background-color: lightgreen;
+}
+
+.footer {
+    position: relative;
     background-color: red;
-    width: 100px;
-    height: 100px;
-}
-#two {
-    background-color: green;
 }
