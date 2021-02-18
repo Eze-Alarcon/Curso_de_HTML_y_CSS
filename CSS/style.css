@@ -55,6 +55,18 @@ html {
     z-index: 0;
 }
 
+.left-section img {
+    position: absolute;
+    width: 15vw;
+    height: 10vh;
+}
+
+.left-section h2 {
+    position: absolute;
+    top: 0.5%;
+    left: 13%;
+    font-size: 3rem;
+}
 
 .main {
     position: relative;
@@ -67,8 +79,34 @@ html {
     z-index: 0;
 }
 
+.left-section img {
+    position: absolute;
+    right: 0;
+    top: 5;
+    width: 15vw;
+    height: 20vh;
+}
+
+#alien {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+#patricio {
+    position: absolute;
+    top: 27%;
+    left: 10%;
+}
+
+#whoa {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
 .footer {
-    height: 4rem;
+    height: 10vh;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -76,3 +114,16 @@ html {
     background-color: rgb(89, 19, 168);
 }
 
+.footer p {
+    font-size: 5vh;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+
+#diario {
+    position: absolute;
+    top: 1rem;
+    right: 20vw;
+    height: 70vh;
+}
