@@ -7,18 +7,36 @@ html{
     font-size: 62.5%;
 }
 
-.uno {
-    font-size: 3rem;
-    text-align: center;
-    border: 1rem solid blue;
-    background-color: red;
+.small_square {
     height: 10rem;
-    width: 15rem;
-    margin: 0 auto;
+    width: 20rem;
+    font-size: 5rem;
+    background: red;
+    border: 0.2rem solid blue; 
     position: relative;
+    top: 0rem;
+    left: 0rem;
 }
 
-.uno p {
-    margin: 0 auto;
-    padding: 0;
+.small_square p {
+    position: absolute;
+    font-size: 5rem !important;
+    top: 15%;
+    left: 19%;
+}
+
+.big_square {
+    height: 40rem;
+    width: 50rem;
+    position: relative;
+    background: grey;
+    top: 10rem;
+}
+
+.big_square p {
+    position: absolute;
+    top: 20rem;
+    left: 2rem;
+    font-size: 2rem;
+    text-align: center;
 }
