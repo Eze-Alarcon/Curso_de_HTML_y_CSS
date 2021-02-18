@@ -11,18 +11,20 @@ html{
     height: 10rem;
     width: 20rem;
     font-size: 5rem;
-    background: red;
-    border: 0.2rem solid blue; 
+    background: pink;
+    border: 0.2rem solid black; 
     position: relative;
-    top: 0rem;
-    left: 0rem;
+    top: 15rem;
+    left: 40%;
+    z-index: 1;
+    border-radius: 2rem;
 }
 
 .small_square p {
     position: absolute;
-    font-size: 5rem !important;
-    top: 15%;
-    left: 19%;
+    font-size: 5rem;
+    top: 18%;
+    left: 13%;
 }
 
 .big_square {
@@ -31,12 +33,23 @@ html{
     position: relative;
     background: grey;
     top: 10rem;
+    left: 25%;
+    border-radius: 3rem
 }
 
 .big_square p {
     position: absolute;
     top: 20rem;
     left: 2rem;
+    right: 2rem;
     font-size: 2rem;
-    text-align: center;
+    text-align: justify;
+}
+
+.imagen img {
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+    top:  6.5rem;
+    left: 39%;
 }
