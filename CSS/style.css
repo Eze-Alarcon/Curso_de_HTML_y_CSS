@@ -3,16 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-.parent {
-    border: 2px white dotted;
-    display: inline-block;
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.conteiner {
+    border: .3rem solid pink;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .box {
-    display: inline-block;
-    background-color: red;
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
 }
-#two {
-    background-color: green;
+.box_1 {
+    background: blue;
+}
+.box_2 {
+    background: brown;
+}
+.box_3 {
+    background: red;
+}
+.box_4 {
+    background: green;
+}
+.box_5 {
+    background: blueviolet;
+}
+.box_6 {
+    background: coral;
 }
